@@ -1,0 +1,113 @@
+.bob
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hh1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+.hh2{
+    color: #000;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.header
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6),rgba(0,0,0,1)),url(image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+.header1
+{
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    font-family: sans-serif;
+
+}
+
+.searc
+{
+    height:  50px;
+    width: 500px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.searc1
+{
+    height:  30px;
+    width: 500px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.btn
+{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 20px;
+}
+
+.btn:hover
+{
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.btn1
+{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 20px;
+}
+
+.btn1:hover
+{
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.box
+{
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+.box1
+{
+    background: rgba(0,0,0,0.5);
+    
+    padding: 20px;
+}
