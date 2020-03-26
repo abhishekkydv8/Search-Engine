@@ -5,8 +5,8 @@ $("#form").submit(function(e)
     //alert(query)
     let result=''
 
-    var api_key='c1accb52d2c82f3e1b440a05af3afcbd'
-    var url='http://api.serpstack.com/search?access_key=' + api_key + '&type=web&query=' + query
+   // var api_key='3a2f1e00-6ef3-11ea-812f-2b1fe6720687'
+    var url='https://app.zenserp.com/api/v2/search?apikey=3a2f1e00-6ef3-11ea-812f-2b1fe6720687'+ '&q=' + query
 
 
 
@@ -18,12 +18,13 @@ $("#form").submit(function(e)
 
 
         console.log(data)
-        data.organic_results.forEach(res => {
+        data.organic.forEach(res => {
             
             result=`
             
-            <h1>${res.title}</h1><br><a target=_blank href="${res.url}">${res.url}</a>
-            <p>${res.snippet}</p>
+            <h1>${res.title}</h1><a target=_blank href="${res.url}">${res.url}</a>
+            <p>${res.description}</p>
+            <br><br><br>
             `
             $("#result").append(result)
 
