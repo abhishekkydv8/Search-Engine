@@ -2,7 +2,6 @@
 {
     margin: 0;
     padding: 0;
-    
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,6 +23,8 @@
     letter-spacing: 5px;
     font-size: 30px;
 }
+
+
 
 .header
 {
